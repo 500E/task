@@ -1,1 +1,40 @@
+body {
+  width: 80vw;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: rgba(33, 33, 33, 0.95);
+}
 
+.button {
+  padding: 0.25em 1em;
+  margin-left: 0.3rem;
+  background-color: #0ad560;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.2em;
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.95);
+  letter-spacing: 1px;
+}
+
+.data-table__item {
+  padding: 0.4em;
+  border: 1px solid black;
+}
+
+.form {
+  display: flex;
+  margin: 0.8em 0;
+}
+
+.form__input {
+  padding: 0.2em;
+}
+
+.filtered {
+  display: none;
+}
